@@ -1,5 +1,32 @@
-node_modules
-dist
-.next
-build
+# dependencias
+node_modules/
+
+# builds
+dist/
+build/
+out/
+
+# Next.js
+.next/
+.next/cache/
+
+# Turbo
+.turbo/
+
+# logs
+*.log
+
+# lockfiles 
 pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# coverage 
+coverage/
+
+# Prisma 
+prisma/migrations/
+
+# archivos generados
+*.min.js
+*.map
